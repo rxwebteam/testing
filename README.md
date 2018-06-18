@@ -4,4 +4,4 @@
 
 Client-side Validation should be simple and clean.
 <br/>Don't let Client-side Validation dirty your component.
-<br/>This validation is configure on model same as data annotation in MVC
+<br/>This validation is configure on model property same as data annotation in MVC
