@@ -13,6 +13,27 @@ Install with npm
 ```
 npm install @rxweb/reactive-form-validators
 ```
+Built-in validation <small>in Rx Web</small>
+===
+1. Required
+2. Alpha
+3. Alpha Numeric
+4. Digits
+5. Max Number
+6. Min Number
+7. Max Date
+8. Min Date
+9. Range
+10. Compare
+11. Pattern
+12. Contains
+13. Email
+14. Hex Color
+15. Password
+16. Lower Case
+17. Upper Case
+
+
 Using Rx Web Reactive Form Validation
 -----
 ```app.module.ts
