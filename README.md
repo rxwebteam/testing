@@ -53,6 +53,44 @@ Writing your First Code
    </div>
 </form>
 ```
+Component
+====```component.ts
+import { Component, OnInit } from '@angular/core';
+import { FormGroup } from '@angular/forms';
+import { Employee, EmployeeDetail, Attendance } from '../models';
+import { ReactiveFormConfig } from '@rxweb/reactive-form-validators';
+import { RxFormBuilder } from '@rxweb/reactive-form-validators';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent implements OnInit {
+  employeeFormGroup: FormGroup
+  constructor(private validation: RxFormBuilder) {
+  }
+  ngOnInit(): void {
+    ReactiveFormConfig.set({
+      "internationalization": {
+        "dateFormat": "dmy",
+        "seperator": "/"
+      },
+      "validationMessage": {
+        "alpha": "only alpha value you enter",
+        "alphaNumeric": "only alpha Numeric value you enter",
+        "contains": "you should contains ",
+        "onlyDigit": "abc",
+        "digit": "digit required"
+      }
+    });
+    var employee = new Employee();
+    employee.firstName = "ajay";
+    employee.lastName = "ojha";
+    this.employeeFormGroup = this.validation.formGroup(employee);
+  }
+}
+```
 
 
 Models
