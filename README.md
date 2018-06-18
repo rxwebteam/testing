@@ -163,5 +163,5 @@ See [release](https://github.com/rxweb/rxweb.github.io/releases)
 
 CONTRIBUTORS
 =====
-Thank you for your contribution [@ajay.ojha](https://github.com/ajayojha)    :heart: <br/>
+Thank you for your contribution [@ajay.ojha](https://github.com/ajayojha) <br/>
 Thanks for all [contributors](https://github.com/rxweb/rxweb.github.io/graphs/contributors)
