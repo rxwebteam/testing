@@ -36,7 +36,8 @@ export class AppModule { }
 ```
 
 Writing your First Code
-====```html
+====
+```html
 <form [formGroup]="employeeFormGroup">
    <div class="form-group">
       <label>First Name</label>
@@ -52,8 +53,10 @@ Writing your First Code
    </div>
 </form>
 ```
-Writing your First Code
-====```component.ts
+
+Component
+====
+```component.ts
 import { Component, OnInit } from '@angular/core';
 import { FormGroup } from '@angular/forms';
 import { Employee, EmployeeDetail, Attendance } from '../models';
