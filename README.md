@@ -33,6 +33,7 @@ import { RxFormBuilder } from '@rxweb/reactive-form-validators';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+```
 
 Writing your First Code
 ====
