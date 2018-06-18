@@ -138,6 +138,20 @@ export class Employee {
 }
 ```
 
+Integrating with Twitter Bootstrap
+=====
+
+To integrate this package with Bootstrap you should do the following.
+
+
+Add the following LESS to your project
+
+```css
+input.ng-invalid, select.ng-invalid{
+  border-bottom:1px solid red;
+}
+
+```
 
 License
 -----
