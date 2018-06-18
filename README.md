@@ -137,3 +137,17 @@ export class Employee {
   lastName: string;
 }
 ```
+
+
+License
+-----
+MIT
+
+CHANGELOG
+=====
+See [release](https://github.com/rxweb/rxweb.github.io/releases)
+
+CONTRIBUTORS
+=====
+Thank you for your contribution [@ajay.ojha](https://github.com/ajayojha) :heart: <br/>
+Thanks for all [contributors](https://github.com/rxweb/rxweb.github.io/graphs/contributors)
