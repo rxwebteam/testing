@@ -53,3 +53,14 @@ Writing your First Code
    </div>
 </form>
 ```
+====```Model Typescript
+import { prop,alpha,alphaNumeric } from "@rxweb/reactive-form-validators";
+export class Employee {
+  @prop()
+  @alpha({ allowWhiteSpace: true, conditionalExpressions: "x => x.lastName == 'ojha'" })
+  firstName: string;
+
+  @prop() @alphaNumeric({ allowWhiteSpace: false, message: "only alpha numeric is allowed", conditionalExpressions: "x => x.firstName == 'ajay'" })
+  lastName: string;
+}
+```
