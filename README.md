@@ -35,7 +35,8 @@ Built-in validation <small>in Rx Web</small>
 | Password      | check if property value matches password pattern other wise it displays field is invalid                                                                                             |
 | Lower Case    | check if property value is in lowecase or not other wise it displays field is invalid                                                                                                |
 | Upper Case    | check if property value is in uppercase or not other wise it displays field is invalid                                                                                               
-Using Rx Web Reactive Form Validation
+
+##Using Rx Web Reactive Form Validation
 -----
 ```app.module.ts
 
