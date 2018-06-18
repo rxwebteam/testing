@@ -36,8 +36,7 @@ export class AppModule { }
 ```
 
 Writing your First Code
-====
-```html
+====```html
 <form [formGroup]="employeeFormGroup">
    <div class="form-group">
       <label>First Name</label>
@@ -53,7 +52,7 @@ Writing your First Code
    </div>
 </form>
 ```
-Component
+Writing your First Code
 ====```component.ts
 import { Component, OnInit } from '@angular/core';
 import { FormGroup } from '@angular/forms';
