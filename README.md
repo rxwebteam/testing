@@ -33,3 +33,19 @@ import { RxFormBuilder } from '@rxweb/reactive-form-validators';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+Writing your First Code
+====
+```html
+    <form [formGroup]="employeeFormGroup">
+      <div class="form-group">
+        <label>First Name</label>
+        <input type="text" class="form-control" formControlName="firstName" />     {{employeeFormGroup.controls.firstName.errors | json}}
+      </div>
+      <div class="form-group">
+        <label>Last Name</label>
+        <input type="text" class="form-control" formControlName="lastName" />     {{employeeFormGroup.controls.lastName.errors | json}}
+      </div>
+      <button type="button" class="btn btn-primary" [disabled]="!employeeFormGroup.valid">Submit</button>
+    </div>
+   </form>
