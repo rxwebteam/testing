@@ -53,7 +53,11 @@ Writing your First Code
    </div>
 </form>
 ```
-====```Model Typescript
+
+
+Models
+====
+```Model Typescript
 import { prop,alpha,alphaNumeric } from "@rxweb/reactive-form-validators";
 export class Employee {
   @prop()
