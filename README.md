@@ -16,27 +16,25 @@ npm install @rxweb/reactive-form-validators
 Built-in validation <small>in Rx Web</small>
 ===
 Validator Description Example
-column0 | column1 | column2
-------- | ------- | -------
-| Validators | | Description | |
+| Validators    | Description                                                                                                                                                                          |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Required | | checked if property has any value or not if there is no value of particular property then it displays field is invalid | |
-| Alpha | | checked if property has any value that is only alphabets or if <b>allowWhiteSpace</b> is true then you can enter whitespace other wise it displays field is invalid | |
+| Required      | checked if property has any value or not if there is no value of particular property then it displays field is invalid                                                               |
+| Alpha         | checked if property has any value that is only alphabets or if <b>allowWhiteSpace</b> is true then you can enter whitespace other wise it displays field is invalid                  |
 | Alpha Numeric | checked if property has any value that is only alphabets and numbers only or if <b>allowWhiteSpace</b> is true then you can enter whitespace other wise it displays field is invalid |
-| Digits | | checked if property has any value that is only numbers only other wise it displays field is invalid | |
-| Max Number | | check if the number's value is less than max number value other wise it displays field is invalid | |
-| Min Number | | check if the number's value is greater than min number value other wise it displays field is invalid | |
-| Max Date | | check if the date's value is less than max date value other wise it displays field is invalid | |
-| Min Date | | check if the date's value is greater than min date value other wise it displays field is invalid | |
-| Range | | check if the property value falls in a range. other wise it displays field is invalid | |
-| Compare | | check if current property is equal to other property other wise it displays field is invalid | |
-| Pattern | | check if propery matches regex pattern or not other wise it displays field is invalid | |
-| Contains | | check if the string contains the value other wise it displays field is invalid | |
-| Email | | check if property value matches email pattern other wise it displays field is invalid | |
-| Hex Color | | check if property value matches hex color pattern other wise it displays field is invalid | |
-| Password | | check if property value matches password pattern other wise it displays field is invalid | |
-| Lower Case | | check if property value is in lowecase or not other wise it displays field is invalid | |
-| Upper Case | | check if property value is in uppercase or not other wise it displays field is invalid | |
+| Digits        | checked if property has any value that is only numbers only other wise it displays field is invalid                                                                                  |
+| Max Number    | check if the number's value is less than max number value other wise it displays field is invalid                                                                                    |
+| Min Number    | check if the number's value is greater than min number value other wise it displays field is invalid                                                                                 |
+| Max Date      | check if the date's value is less than max date value other wise it displays field is invalid                                                                                        |
+| Min Date      | check if the date's value is greater than min date value other wise it displays field is invalid                                                                                     |
+| Range         | check if the property value falls in a range. other wise it displays field is invalid                                                                                                |
+| Compare       | check if current property is equal to other property other wise it displays field is invalid                                                                                         |
+| Pattern       | check if propery matches regex pattern or not other wise it displays field is invalid                                                                                                |
+| Contains      | check if the string contains the value other wise it displays field is invalid                                                                                                       |
+| Email         | check if property value matches email pattern other wise it displays field is invalid                                                                                                |
+| Hex Color     | check if property value matches hex color pattern other wise it displays field is invalid                                                                                            |
+| Password      | check if property value matches password pattern other wise it displays field is invalid                                                                                             |
+| Lower Case    | check if property value is in lowecase or not other wise it displays field is invalid                                                                                                |
+| Upper Case    | check if property value is in uppercase or not other wise it displays field is invalid                                                                                               |
 
 Using Rx Web Reactive Form Validation
 -----
